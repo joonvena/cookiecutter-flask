@@ -1,6 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "github-actions"
-    directory: "/{{cookiecutter.app_name}}/.github"
+    directories: 
+      - "/{{cookiecutter.app_name}}/.github"
     schedule:
       interval: "daily"
